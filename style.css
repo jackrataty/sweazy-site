@@ -340,3 +340,6 @@ footer {
   font-family: "Fraunces", serif;
   color: var(--gold);
 }
+
+.is-hidden { display: none; }
+
