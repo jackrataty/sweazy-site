@@ -244,7 +244,9 @@
         Send a message below.
       </p>
 
-      <form class="contactForm" action="#" method="post">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact"/>
+        
         <div class="formRow">
           <label for="name">Full Name</label>
           <input type="text" id="name" name="name" required />
